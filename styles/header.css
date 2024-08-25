@@ -58,8 +58,7 @@
     display: none;
 }
 
-@media screen and (min-width: 1024px) { /*atualizado na aula 19/08 */
-    
+@media screen and (min-width: 1024px) { /*atualizado na aula 19/08 */  
  .container__titulo,
  .container__titulo--negrito {
         font-family: var(--fonte-secundario);
