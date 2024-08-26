@@ -58,6 +58,50 @@
     display: none;
 }
 
-@media screen and (min-width: 1024px) { /*inserido na aula 07/08 */
+@media screen and (min-width: 1024px) { /*atualizado na aula 19/08 */  
+ .container__titulo,
+ .container__titulo--negrito {
+        font-family: var(--fonte-secundario);
+        font-size: 30px;
+    }
 
+    .container__titulo {
+        font-weight: 400;
+        display: block;
+    }
+
+    .container__titulo--negrito {
+        font-weight: 700;
+    }
+
+    .opcoes {
+        display: flex;
+    }
+
+    .opcoes__item {
+        padding: 0 1em;
+        text-transform: uppercase;
+    }
+
+    .opcoes__link {
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .container__imagem-transparente {
+        display: none;
+    }
+
+    .cabeçalho__menu-hamburguer {
+        display: none;
+    }
+
+    .opcoes__botão:checked~.lista-menu {
+        display: block;
+        width: auto;
+    }
+
+    .opcoes__botão {
+        display: none;
+    }
 }
